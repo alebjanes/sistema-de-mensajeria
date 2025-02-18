@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contactos {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+}
+
+.contactos img {
+    border-radius: 50%;
+    height: 50px;
+}
+
+/* USUARIO */
+
+.usuario {
+    border: 0.5px solid rgba(128, 128, 128, 0.309);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px
+}
+
+.datos-usuario {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.nombre-usuario {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.nombre-usuario h2 {
+    font-size: large;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.nombre-usuario p {
+    font-size: small;
+    color: grey;
+    margin: 0px;
+}
+
+.iconos-usuario {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0px 20px;
+}
+
+/* BOTON */
+
+.boton {
+    border: 0.5px solid rgba(128, 128, 128, 0.309);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px 5px;
+}
+
+.boton-chat {
+    background-color: #A491D2;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+}
+
+/* CHAT */
+
+.contacto {
+    border: 0.5px solid rgba(128, 128, 128, 0.309);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 30px
+}
+
+.datos-contacto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+
+.datos-contacto p {
+    margin: 0px;
+}
+
+.datos-contacto h4 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+/* PRINCIPAL */
+
+.principal {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.networking {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.networking p {
+    width: 60%;
+    text-align: center;
+    margin: 0;
+}
+
+.networking img {
+    width: 30%;
+}
